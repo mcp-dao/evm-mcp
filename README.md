@@ -1,6 +1,6 @@
 # EVM MCP
 
-A Model Context Protocol server for interacting with the EVM blockchain, powered by the [EVM AI Kit](https://github.com/mcp-dao/evm-ai-kit).
+A Model Context Protocol server for interacting with the EVM blockchain, powered by the [EVM AI Kit](https://github.com/mcp-dao/evm-agent-kit).
 
 ## Overview
 
