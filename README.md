@@ -12,7 +12,6 @@ This project implements a Model Context Protocol (MCP) server that enables AI mo
 - TypeScript implementation
 - Express.js server
 - Environment-based configuration
-- Vercel deployment support
 
 ## Prerequisites
 
@@ -64,10 +63,6 @@ To start the production server:
 ```bash
 npm start
 ```
-
-## Deployment
-
-This project is configured for deployment on Vercel. The build process is handled automatically through the `vercel-build` script.
 
 ## Dependencies
 
