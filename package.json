@@ -1,0 +1,40 @@
+{
+  "name": "evm-mcp",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol server for interacting with the EVM blockchain, powered by the [EVM AI Kit](https://github.com/mcp-dao/evm-ai-kit)",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "vercel-build": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "evm",
+    "mcp",
+    "evm-ai-kit",
+    "evm-mcp"
+  ],
+  "author": "mcp-dao",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "dotenv": "^16.4.7",
+    "evm-ai-kit": "^0.0.0",
+    "express": "^5.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.4",
+    "typescript": "^5.8.3",
+    "vercel": "^33.5.1"
+  }
+}
