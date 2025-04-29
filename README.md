@@ -64,6 +64,10 @@ To start the production server:
 npm start
 ```
 
+## Deploy on Phala Cloud
+
+Check the [doc](./tee.md)
+
 ## Dependencies
 
 - `@modelcontextprotocol/sdk`: MCP SDK for protocol implementation
